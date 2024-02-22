@@ -1,6 +1,7 @@
 import React from 'react'
-
-const homePage = () => {
+import { Link } from 'react-router-dom'
+import logo from './logo.svg';
+const HomePage = () => {
   return (
     <div className="App">
     <header>
@@ -29,4 +30,4 @@ const homePage = () => {
   )
 }
 
-export default homePage
+export default HomePage
